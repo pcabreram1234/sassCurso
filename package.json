@@ -1,0 +1,26 @@
+{
+    "name": "sass-workshop",
+    "version": "1.0.0",
+    "description": "Proyecto para aprender los conceptos básicos de SASS",
+    "main": "index.html",
+    "scripts": {
+        "test": "sass",
+        "sass": "sass --watch ./initial/styles.scss ./initial/src/styles/index.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/teffcode/sass-workshop.git"
+    },
+    "keywords": [
+        "sass",
+        "parrillada",
+        "css",
+        "html"
+    ],
+    "author": "Phillip Cabrera",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/teffcode/sass-workshop/issues"
+    },
+    "homepage": "https://github.com/teffcode/sass-workshop#readme"
+}

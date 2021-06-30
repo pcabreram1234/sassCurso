@@ -1,0 +1,43 @@
+body {
+  background-color: #99ddcc;
+  margin: 0;
+  padding: 0;
+}
+
+.center, .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.size-container {
+  width: 100%;
+  height: 80px;
+}
+
+.letter-transform {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.header {
+  background-color: #99ddcc;
+  color: #fff;
+  width: 100%;
+  height: 80px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main img {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
