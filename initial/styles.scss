@@ -4,6 +4,20 @@ body {
     padding: 0;
 }
 
+.border {
+    border: 1px solid white;
+    border-radius: 20px;
+    outline: none;
+}
+
+.inputPadding {
+    padding: 20px 0px;
+    text-align: center;
+    font: {
+        size: 20px;
+    }
+}
+
 $green: #99ddcc;
 $pink: #fa91a7;
 $yellow: #d9e540;
@@ -13,19 +27,12 @@ $font-arial: arial;
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-items: center;
+    text-align: center;
 }
 
-.size-container {
-    width: 100%;
-    height: 80px;
-}
-
-.letter-transform {
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
-
-.header {
+.headerContainer,
+.header--title {
     @extend .center;
     background-color: $green;
     color: $white;
@@ -33,9 +40,6 @@ $font-arial: arial;
     height: 80px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font: {
         family: $font-arial;
         size: 18px;
@@ -43,9 +47,25 @@ $font-arial: arial;
     }
 }
 
-.main {
-    img {
-        width: 100%;
-        height: 100%;
-    }
+.portada img {
+    width: 100%;
+    height: 400px;
+}
+
+.search {
+    @extend .center;
+    background-color: $yellow;
+    height: 100px;
+}
+
+.searchTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input {
+    @extend .border,
+    .inputPadding;
+    width: 70%;
 }
