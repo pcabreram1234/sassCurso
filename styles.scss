@@ -21,7 +21,7 @@ body {
 
 section div div img {
     width: 600px;
-    height: 100%;
+    height: 300px;
     border: 1px solid white;
     border-radius: 40px;
     box-shadow: 4px 6px 20px 8px black;
@@ -55,7 +55,7 @@ $beige: rgb(255, 243, 188);
     text-transform: uppercase;
     letter-spacing: 5px;
     font: {
-        size: 18px;
+        size: 48px;
         weight: bold;
     }
 }
@@ -86,7 +86,7 @@ $beige: rgb(255, 243, 188);
 .grid {
     display: grid;
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 400px;
@@ -101,7 +101,8 @@ $beige: rgb(255, 243, 188);
 .secondarySection {
     @extend.grid;
     background: $beige;
-    margin: 2% 0%;
+    margin: 30px 0px;
+    padding: 20px 0px;
 }
 
 .section-left {
